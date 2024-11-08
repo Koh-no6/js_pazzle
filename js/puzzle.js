@@ -1,7 +1,7 @@
 let tiles = document.getElementsByClassName("tile");
 let timer = document.getElementById("timer");
 let containers = document.getElementsByClassName("container");
-let time = 30;
+let time = 50;
 let clear_flag;
 
 function init() {
@@ -46,11 +46,11 @@ function count_down() {
     timer.textContent = time;
     if (time <= 0) {
       clearInterval(count)
-      timer.textContent = "ゲームオーバー";
+      timer.textContent = "笑っちまうぜ";
     }
     if (clear_flag && time > 0) {
       clearInterval(count)
-      timer.textContent = "ゲームクリア";
+      timer.textContent = "いいねぇ";
     }
   }, 1000);
 }
