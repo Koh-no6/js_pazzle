@@ -9,15 +9,15 @@
     cursor: pointer;
 }
 .container {
-    width: 384px;
-    height: 133px;
+    width: 300px;
+    height: 100px;
     margin: 0px auto;
     text-align: center;
     display: flex;
     background-color: white;
 }
 .container .tile {
-    width: 128px;
+    width: 100px;
     /* border: 1px solid black; */
 }
 div[data-index="1"] {
